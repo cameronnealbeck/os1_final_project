@@ -92,4 +92,5 @@ Edit the file and add the following lines:
 @reboot /usr/local/bin/forever start /root/webpage/webpage.js else
 @reboot sh /root/webstart.sh
 ```
+Now, reboot your device and you should be able to open up a web browser and get the hello world without starting node manually!
 ![final product](completion.gif)
